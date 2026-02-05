@@ -15,10 +15,10 @@ from Core.erp.models import *
 # obj =Type.objects.filter(name__in=['Presidente', 'Hola puto']).count()
 #obj =Type.objects.filter(name__icontains='hola').query
 #obj =Type.objects.filter(name__icontains='o').exclude(id=5)
-Emplooye.objects.filter(type_id=1)
+# Emplooye.objects.filter(type_id=1)
 
-for obj in Type.objects.filter(Emplooye):
-    print(obj.name)
+# for obj in Type.objects.filter(Emplooye):
+#     print(obj.name)
 
 
 # for obj in Type.objects.filter(name__icontains='ko')[:2]:
